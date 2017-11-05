@@ -23,7 +23,10 @@
 >  follow this instruction @http://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html
   
 ## Installing Locust
->  pip install locustio (Must have python pip)
+>  Must have python pip
+```
+pip install locustio
+```
   
 ## Installing terraform
 > follow this instruction @https://www.terraform.io/intro/getting-started/install.html
@@ -32,8 +35,8 @@
 > 1. check everything in terra.tf  
 > 2. if you don't want to use Target group ARN use terra in TerraformWithLoadBalancer  
 > 3. else you have to create own load balancer with target group  
-> 4. use "terraform plan" in terminal or CMD  
-> 5. use "terraform apply" in terminal or CMD  
+> 4. use command "terraform plan" in terminal or CMD  
+> 5. use command "terraform apply" in terminal or CMD  
 > 6. if you want to test auto scaling use locust with command "locust --host=${web url}"  
   
   
